@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/',(req,res) => {
-res.send("Docker nodejs example");
-res.send("by Harshith Varma");
+res.send("Docker nodejs example,by harshith");
 
 });
 app.listen(3111,() => {
